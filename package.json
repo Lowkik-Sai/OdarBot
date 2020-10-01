@@ -5,6 +5,7 @@
   "main": "bot.js",
   "author": "Odar",
   "license": "ISC",
+  "start": "node bot.js"
   "engines": {
     "node": "10.x"
   },
