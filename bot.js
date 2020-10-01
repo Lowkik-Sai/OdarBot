@@ -7,6 +7,9 @@ const client = new Discord.Client();
 const prefix = botSettings.prefix;
 const DBL = require("dblapi.js");
 const dbl = new DBL(process.env.dblapi, client);
+const m3u8stream = require('m3u8stream');
+
+const parseTime   = require('m3u8stream/dist/parse-time');
 
 const bot = new Discord.Client({disableEveryone: true});
 bot.commands = new Discord.Collection();
